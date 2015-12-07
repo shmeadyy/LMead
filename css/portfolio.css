@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'Wasted';
+	src: url('../fonts/Wasted.otf');
+}
+
+@font-face{
+	font-family: 'Code Bold';
+	src: url('../fonts/CODE Bold.otf');
+}
+
+@font-face{
+	font-family: 'Code Light';
+	src: url('../fonts/CODE Light.otf');
+}
+
+body {
+	/*background-color: #000424;*/
+	font-family: 'Code Light';
+}	
+
+.container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box{ 
+	width: 100%;
+}
+
+.headshot{
+	width: 20%;
+	float: left;
+}
+
+.headerText{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+
+.headerText h1{
+	font-family: 'Wasted';
+	margin: 0;
+	font-size: 3em;
+}
+
+.headerText h4{
+	margin: 2px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.featured-content h1{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+@media screen and (min-width: 450px){
+
+}
+
+/* Tablet View */
+@media screen and (min-width: 550px){
+	#project2, #project3{
+		width: 50%;
+	}
+}
+
+/* Desktop */
+@media screen and (min-width: 800px){
+	.container{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.header{
+		margin-top: 2em;
+	}
+
+	.headerText h1{
+		margin-top: 1em;
+		font-size: 5em;
+	}
+
+	.headerText h4{
+		letter-spacing: 5px;
+
+	}
+
+}
