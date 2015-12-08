@@ -21,8 +21,6 @@ body {
 
 .container {
 	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
 }
 
 a {
@@ -34,6 +32,10 @@ a {
 	margin-bottom: 1em;
 }
 
+.featured-content {
+	display: flex;
+	flex-wrap: wrap;
+}
 /*
 
 	HEADER
@@ -84,7 +86,7 @@ a {
 	letter-spacing: 4px;
 	color: #6689A7;
 	font-family: 'Code Bold';
-	margin: 1em;
+	text-align: center;
 }
 
 .projectImage {
@@ -117,48 +119,4 @@ a {
 
 #project3 {
 	color: #867A84;
-}
-
-@media screen and (min-width: 450px){
-
-}
-
-/* Tablet View */
-@media screen and (min-width: 550px){
-	#project2, #project3{
-		width: 50%;
-	}
-
-	.box a:hover{
-	color: #6689A7;
-}
-
-}
-
-/* Desktop */
-@media screen and (min-width: 800px){
-	.container {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.profilePic {
-		padding-left:7em;
-		width: 20%;
-	}
-
-	.header {
-		margin-top: 2em;
-	}
-
-	.headerText h1 {
-		margin-top: 1em;
-		font-size: 5em;
-	}
-
-	.headerText h4 {
-		letter-spacing: 5px;
-	}
-
 }

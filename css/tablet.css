@@ -1,0 +1,49 @@
+.headerText {
+	margin-top: 6em;‹
+}
+
+.featured-content h1 {
+	text-align: left;
+}
+
+.box a {
+	margin: 3em;
+}
+
+/* Larger Screen Breakpoint View */
+@media screen and (min-width: 550px){
+	.headerText h1 {
+		font-size: 3.5em;
+	}
+
+	.headerText {
+		margin-top: 2em;
+	}
+
+	#project2, #project3{
+		width: 48%;
+		margin: 5px;
+	}
+
+	#projectTwo, #projectThree {
+		text-align: center;
+	}
+
+	#project2 a, #project3 a {
+		font-size: 12px;
+		margin: 0px;
+	}
+
+	.projectTitles {
+		font-size: 1.5em;
+	}
+
+	.box a {
+		margin: 6em;
+	}
+
+	.box a:hover{
+		color: #6689A7;
+	}
+
+}
