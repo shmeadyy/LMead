@@ -38,7 +38,7 @@ a {
 
 */
 
-.header {
+header {
 	margin-top: 1em;
 }
 
@@ -96,7 +96,7 @@ a {
 	margin: 1em;
 }
 
-.box a {
+.box p {
 	margin: 10px;
 	color: #CBD8E1;
 }

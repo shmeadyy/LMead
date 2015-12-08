@@ -6,7 +6,7 @@
 	text-align: left;
 }
 
-.box a {
+.box p {
 	margin: 3em;
 }
 
@@ -29,7 +29,7 @@
 		text-align: center;
 	}
 
-	#project2 a, #project3 a {
+	#project2 p, #project3 p {
 		font-size: 12px;
 		margin: 0px;
 	}
@@ -38,12 +38,7 @@
 		font-size: 1.5em;
 	}
 
-	.box a {
+	.box p {
 		margin: 6em;
 	}
-
-	.box a:hover{
-		color: #6689A7;
-	}
-
 }

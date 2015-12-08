@@ -13,7 +13,7 @@
 	width: 20%;
 }
 
-.header {
+header {
 	margin-top: 3em;
 }
 
@@ -31,7 +31,7 @@
 	font-size: 2em;
 }
 
-.box a {
+.box p {
 	font-size: 14px !important;
 	margin: 0;
 }
