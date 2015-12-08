@@ -35,3 +35,16 @@
 	font-size: 14px !important;
 	margin: 0;
 }
+
+@media screen and (min-width: 1150px){
+	.profilePic {
+		padding-left: 8em;
+	}
+
+}
+
+@media screen and (min-width: 2000px){
+	.headerText {
+		margin-top: 20em;
+	}
+}
