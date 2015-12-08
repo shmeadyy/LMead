@@ -33,7 +33,7 @@ header {
 
 .box p {
 	font-size: 14px !important;
-	margin: 0;
+	overflow-wrap: break-word;
 }
 
 @media screen and (min-width: 1150px){

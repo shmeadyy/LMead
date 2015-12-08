@@ -6,10 +6,6 @@
 	text-align: left;
 }
 
-.box p {
-	margin: 3em;
-}
-
 /* Larger Screen Breakpoint View */
 @media screen and (min-width: 550px){
 	.headerText h1 {
@@ -31,14 +27,9 @@
 
 	#project2 p, #project3 p {
 		font-size: 12px;
-		margin: 0px;
 	}
 
 	.projectTitles {
 		font-size: 1.5em;
-	}
-
-	.box p {
-		margin: 6em;
 	}
 }
